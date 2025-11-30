@@ -1,0 +1,36 @@
+# ADK and Google Cloud Dependencies
+google-ai==0.6.0
+aiohttp>=3.9.0
+asyncio>=3.4.3
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Logging and Observability
+python-logging>=0.5.1
+python-json-logger>=2.0.7
+opentelemetry-api>=1.20.0
+opentelemetry-sdk>=1.20.0
+opentelemetry-exporter-trace-jaeger>=1.20.0
+
+# Session & Memory Management
+redis>=5.0.0
+pydantic>=2.0.0
+
+# API Integration
+requests>=2.31.0
+fastapi>=0.104.0
+uvicorn>=0.24.0
+
+# Environment Variables
+python-dotenv>=1.0.0
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+
+# Code Quality
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.5.0
